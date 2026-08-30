@@ -20,8 +20,18 @@ O TCC é um site que atende a todo e qualquer tipo de demanda em relação a rec
 
 ## Como executar
 
+**Pré-requisitos:**
+- [XAMPP](https://www.apachefriends.org/) (Apache + MySQL)
+- [Node.js](https://nodejs.org/) versão 16 (versão exigida pelo projeto — veja `.node-version`)
+  
+**Back-end (PHP + MySQL):**
 1. Copie a pasta `TCC` e cole no `htdocs` do XAMPP (`C:\xampp\htdocs`).
-2. Baixe e configure a IA utilizada no projeto.
+
+**Front-end (React):**
+1. Abra um terminal na pasta `treact`.
+2. Rode `npm install` para instalar as dependências do projeto (React, Tailwind CSS e demais bibliotecas listadas em `package.json`).
+3. Rode `npm start` para iniciar o front-end em modo de desenvolvimento.
+4. Acesse `http://localhost:3000` no navegador.
 
 ## Meu papel no projeto
 
